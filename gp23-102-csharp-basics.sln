@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2CodeExecution", "P2CodeExecution\P2CodeExecution.csproj", "{3827C36B-81F2-4E24-A417-1A57CFD14365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3PrintingOutput", "P3PrintingOutput\P3PrintingOutput.csproj", "{0384D618-B18A-47CF-8D64-BF7B528D1992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3827C36B-81F2-4E24-A417-1A57CFD14365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3827C36B-81F2-4E24-A417-1A57CFD14365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3827C36B-81F2-4E24-A417-1A57CFD14365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3827C36B-81F2-4E24-A417-1A57CFD14365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0384D618-B18A-47CF-8D64-BF7B528D1992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0384D618-B18A-47CF-8D64-BF7B528D1992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0384D618-B18A-47CF-8D64-BF7B528D1992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0384D618-B18A-47CF-8D64-BF7B528D1992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
