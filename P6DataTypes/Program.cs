@@ -14,7 +14,10 @@ Console.WriteLine(isAwesome);
 byte hexByte = 0xa7;
 Console.WriteLine(hexByte);
 
-Console.WriteLine($@"{outputString} {decimalValue} {isAwesome} {hexByte}");
+Console.WriteLine($@"{outputString}
+{decimalValue}
+{isAwesome}
+{hexByte}");
 
 
 
