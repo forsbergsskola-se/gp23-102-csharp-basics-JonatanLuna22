@@ -20,7 +20,7 @@ Console.WriteLine(kingPosition);
 string KingPosition = "D1"; 
 Console.WriteLine(KingPosition);
 
-int Number = 5;
-Console.WriteLine(Number);
-Number = 10;
-Console.WriteLine(Number);
+int number = 5;
+Console.WriteLine(number);
+number = 10;
+Console.WriteLine(number);
