@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2CodeExecution", "P2CodeEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3PrintingOutput", "P3PrintingOutput\P3PrintingOutput.csproj", "{0384D618-B18A-47CF-8D64-BF7B528D1992}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Comments", "P4Comments\P4Comments.csproj", "{75018695-1827-402F-9305-DAFC523ECA3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0384D618-B18A-47CF-8D64-BF7B528D1992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0384D618-B18A-47CF-8D64-BF7B528D1992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0384D618-B18A-47CF-8D64-BF7B528D1992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75018695-1827-402F-9305-DAFC523ECA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75018695-1827-402F-9305-DAFC523ECA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75018695-1827-402F-9305-DAFC523ECA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75018695-1827-402F-9305-DAFC523ECA3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
