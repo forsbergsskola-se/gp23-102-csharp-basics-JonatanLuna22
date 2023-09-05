@@ -19,3 +19,8 @@ Console.WriteLine(kingPosition);
 
 string KingPosition = "D1"; 
 Console.WriteLine(KingPosition);
+
+int Number = 5;
+Console.WriteLine(Number);
+Number = 10;
+Console.WriteLine(Number);
