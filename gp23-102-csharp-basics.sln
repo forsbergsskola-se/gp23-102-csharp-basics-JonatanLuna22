@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Pl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9Operators", "P9Operators\P9Operators.csproj", "{A239EEF7-816A-4477-996E-1F8B08ED8BA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.2 M to S", "P9.2 M to S\P9.2 M to S.csproj", "{6593F9AB-0EB4-48BE-AF51-FD2FF79B3066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.1 Km.h to m.s", "P9.1 Km.h to m.s\P9.1 Km.h to m.s.csproj", "{323F46B8-0411-4CB1-9A03-1B081E390EA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{A239EEF7-816A-4477-996E-1F8B08ED8BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A239EEF7-816A-4477-996E-1F8B08ED8BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A239EEF7-816A-4477-996E-1F8B08ED8BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6593F9AB-0EB4-48BE-AF51-FD2FF79B3066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6593F9AB-0EB4-48BE-AF51-FD2FF79B3066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6593F9AB-0EB4-48BE-AF51-FD2FF79B3066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6593F9AB-0EB4-48BE-AF51-FD2FF79B3066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323F46B8-0411-4CB1-9A03-1B081E390EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323F46B8-0411-4CB1-9A03-1B081E390EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323F46B8-0411-4CB1-9A03-1B081E390EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323F46B8-0411-4CB1-9A03-1B081E390EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
