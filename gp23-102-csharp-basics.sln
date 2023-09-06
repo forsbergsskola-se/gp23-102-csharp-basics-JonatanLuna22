@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8Conversion", "P8Conversio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{FB9F66BA-E5E8-49F7-8C17-E6690C35686B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9Operators", "P9Operators\P9Operators.csproj", "{A239EEF7-816A-4477-996E-1F8B08ED8BA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{FB9F66BA-E5E8-49F7-8C17-E6690C35686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB9F66BA-E5E8-49F7-8C17-E6690C35686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB9F66BA-E5E8-49F7-8C17-E6690C35686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A239EEF7-816A-4477-996E-1F8B08ED8BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A239EEF7-816A-4477-996E-1F8B08ED8BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A239EEF7-816A-4477-996E-1F8B08ED8BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A239EEF7-816A-4477-996E-1F8B08ED8BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
