@@ -24,7 +24,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.1 Km.h to m.s", "P9.1 Km
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.3 Int to float", "P9.3 Int to float\P9.3 Int to float.csproj", "{0C004EF9-9407-4C26-B3CE-F21DD3F87C2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.4", "P9.4\P9.4.csproj", "{E8381B39-BF2E-4F25-B8F7-CFAE547AD2CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.4 Remainder", "P9.4 Remainder\P9.4 Remainder.csproj", "{E8381B39-BF2E-4F25-B8F7-CFAE547AD2CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
