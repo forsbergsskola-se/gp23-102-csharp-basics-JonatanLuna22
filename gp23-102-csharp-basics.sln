@@ -32,6 +32,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.6 Minus", "P9.6 Minus\P9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.7 Multiplication", "P9.7 Multiplication\P9.7 Multiplication.csproj", "{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.8 BMI", "P9.8 BMI\P9.8 BMI.csproj", "{D53C5580-7915-4B73-B17A-88D308EEFE28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.9 Hypotenuse", "P9.9 Hypotenuse\P9.9 Hypotenuse.csproj", "{2E12EE10-33D1-49CE-9066-36B8E9F4F803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +106,13 @@ Global
 		{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53C5580-7915-4B73-B17A-88D308EEFE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53C5580-7915-4B73-B17A-88D308EEFE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53C5580-7915-4B73-B17A-88D308EEFE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53C5580-7915-4B73-B17A-88D308EEFE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E12EE10-33D1-49CE-9066-36B8E9F4F803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E12EE10-33D1-49CE-9066-36B8E9F4F803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E12EE10-33D1-49CE-9066-36B8E9F4F803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E12EE10-33D1-49CE-9066-36B8E9F4F803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
