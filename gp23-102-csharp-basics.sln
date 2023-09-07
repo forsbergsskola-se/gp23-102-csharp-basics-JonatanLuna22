@@ -1,28 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2CodeExecution", "P2CodeExecution\P2CodeExecution.csproj", "{3827C36B-81F2-4E24-A417-1A57CFD14365}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2 CodeExecution", "P2 CodeExecution\P2 CodeExecution.csproj", "{3827C36B-81F2-4E24-A417-1A57CFD14365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3PrintingOutput", "P3PrintingOutput\P3PrintingOutput.csproj", "{0384D618-B18A-47CF-8D64-BF7B528D1992}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3 PrintingOutput", "P3 PrintingOutput\P3 PrintingOutput.csproj", "{0384D618-B18A-47CF-8D64-BF7B528D1992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Comments", "P4Comments\P4Comments.csproj", "{75018695-1827-402F-9305-DAFC523ECA3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4 Comments", "P4 Comments\P4 Comments.csproj", "{75018695-1827-402F-9305-DAFC523ECA3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5Variables", "P5Variables\P5Variables.csproj", "{EEB108D3-818F-4458-B6A4-5BB11EC93890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5 Variables", "P5 Variables\P5 Variables.csproj", "{EEB108D3-818F-4458-B6A4-5BB11EC93890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6DataTypes", "P6DataTypes\P6DataTypes.csproj", "{BF265070-9245-4DD0-B5F5-0F5D5566874F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6 DataTypes", "P6 DataTypes\P6 DataTypes.csproj", "{BF265070-9245-4DD0-B5F5-0F5D5566874F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P7Input", "P7Input\P7Input.csproj", "{24ECC61D-41F9-479B-9D69-6E342A2B2668}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P7 Input", "P7 Input\P7 Input.csproj", "{24ECC61D-41F9-479B-9D69-6E342A2B2668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8Conversion", "P8Conversion\P8Conversion.csproj", "{C4EFA85A-6847-4E49-A837-353DA76B08AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8 Conversion", "P8 Conversion\P8 Conversion.csproj", "{C4EFA85A-6847-4E49-A837-353DA76B08AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{FB9F66BA-E5E8-49F7-8C17-E6690C35686B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9Operators", "P9Operators\P9Operators.csproj", "{A239EEF7-816A-4477-996E-1F8B08ED8BA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9 Operators", "P9 Operators\P9 Operators.csproj", "{A239EEF7-816A-4477-996E-1F8B08ED8BA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.2 M to S", "P9.2 M to S\P9.2 M to S.csproj", "{6593F9AB-0EB4-48BE-AF51-FD2FF79B3066}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.1 Km.h to m.s", "P9.1 Km.h to m.s\P9.1 Km.h to m.s.csproj", "{323F46B8-0411-4CB1-9A03-1B081E390EA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.3Dividing", "P9.3Dividing\P9.3Dividing.csproj", "{0C004EF9-9407-4C26-B3CE-F21DD3F87C2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.3 Dividing", "P9.3 Dividing\P9.3 Dividing.csproj", "{0C004EF9-9407-4C26-B3CE-F21DD3F87C2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.4 Remainder", "P9.4 Remainder\P9.4 Remainder.csproj", "{E8381B39-BF2E-4F25-B8F7-CFAE547AD2CB}"
 EndProject
@@ -35,6 +35,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.8 BMI", "P9.8 BMI\P9.8 BMI.csproj", "{D53C5580-7915-4B73-B17A-88D308EEFE28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.9 Hypotenuse", "P9.9 Hypotenuse\P9.9 Hypotenuse.csproj", "{2E12EE10-33D1-49CE-9066-36B8E9F4F803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.10 Minutes and seconds", "P9.10 Minutes and seconds\P9.10 Minutes and seconds.csproj", "{2EFD663C-EAAA-4B06-8A22-16AAC89AAE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10 Conditions", "P10 Conditions\P10 Conditions.csproj", "{0591697C-8FF6-4F0C-B1F5-2D35E16DC4F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -114,5 +118,13 @@ Global
 		{2E12EE10-33D1-49CE-9066-36B8E9F4F803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E12EE10-33D1-49CE-9066-36B8E9F4F803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E12EE10-33D1-49CE-9066-36B8E9F4F803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFD663C-EAAA-4B06-8A22-16AAC89AAE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFD663C-EAAA-4B06-8A22-16AAC89AAE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFD663C-EAAA-4B06-8A22-16AAC89AAE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFD663C-EAAA-4B06-8A22-16AAC89AAE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0591697C-8FF6-4F0C-B1F5-2D35E16DC4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0591697C-8FF6-4F0C-B1F5-2D35E16DC4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0591697C-8FF6-4F0C-B1F5-2D35E16DC4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0591697C-8FF6-4F0C-B1F5-2D35E16DC4F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
