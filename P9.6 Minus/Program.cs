@@ -24,7 +24,7 @@ Console.WriteLine($"As you have supposed, {answer1} - {answer1} = {r}.");
     string answer1 = Console.ReadLine();
     int n = int.Parse(answer1);
 
-    int r = ;
+    int r = (-n);
 
     Console.WriteLine($"As you have supposed, {answer1} - {answer1} = {r}.");
 
