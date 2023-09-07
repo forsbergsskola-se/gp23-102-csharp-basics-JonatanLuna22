@@ -22,7 +22,7 @@ Give me a number!");
 //Another option down here.
 
 {
-    Console.WriteLine(@"Hej! Here you can divide numbers.
+    Console.WriteLine(@"Hej! Here you can divide whole numbers.
 
 Give me a number!");
 

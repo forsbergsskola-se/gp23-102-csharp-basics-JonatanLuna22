@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.5 CircleArea", "P9.5 Cir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.6 Minus", "P9.6 Minus\P9.6 Minus.csproj", "{B5293D77-B171-4DBD-A597-4C152C043492}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.7 Multiplication", "P9.7 Multiplication\P9.7 Multiplication.csproj", "{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{B5293D77-B171-4DBD-A597-4C152C043492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5293D77-B171-4DBD-A597-4C152C043492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5293D77-B171-4DBD-A597-4C152C043492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39355AC3-B0F0-44E8-A7C0-E9084C851AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

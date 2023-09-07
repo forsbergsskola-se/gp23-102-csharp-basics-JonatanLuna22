@@ -9,6 +9,6 @@ Give me the radius of a circle in cm.");
 string answer1 = Console.ReadLine();
 float r = float.Parse(answer1);
 
-float a = 3.1416f * (r * r);
+float a = 3.1416f * (r * r); // I can also use "Mathf.PI" instead of 3.1416f
 
 Console.WriteLine($"The are of a circle with a radius of {answer1}cm is {a}cm");
