@@ -5,7 +5,7 @@ Give me a number that represents seconds:");
 string answer1 = Console.ReadLine();
 int s = int.Parse(answer1);
 
-float m = s / 60;
+int m = s / 60;
 
 int r = s % 60;
 
