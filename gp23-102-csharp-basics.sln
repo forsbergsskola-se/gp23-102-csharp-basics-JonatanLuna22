@@ -38,9 +38,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.9 Hypotenuse", "P9.9 Hyp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.10 Minutes and seconds", "P9.10 Minutes and seconds\P9.10 Minutes and seconds.csproj", "{2EFD663C-EAAA-4B06-8A22-16AAC89AAE23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10 Conditions", "P10 Conditions\P10 Conditions.csproj", "{0591697C-8FF6-4F0C-B1F5-2D35E16DC4F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10 Boolean", "P10 Boolean\P10 Boolean.csproj", "{0591697C-8FF6-4F0C-B1F5-2D35E16DC4F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.11 DHMS", "P9.11 DHMS\P9.11 DHMS.csproj", "{A1445BC6-70D2-43EA-8907-9FC320401E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11 Ifelse", "P11 Ifelse\P11 Ifelse.csproj", "{82B79A41-B29D-4FD2-AC65-6A3043357A33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -132,5 +134,9 @@ Global
 		{A1445BC6-70D2-43EA-8907-9FC320401E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1445BC6-70D2-43EA-8907-9FC320401E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1445BC6-70D2-43EA-8907-9FC320401E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B79A41-B29D-4FD2-AC65-6A3043357A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B79A41-B29D-4FD2-AC65-6A3043357A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B79A41-B29D-4FD2-AC65-6A3043357A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B79A41-B29D-4FD2-AC65-6A3043357A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,5 @@
-﻿Console.WriteLine(@"Hej! Give me a number of seconds:");
+﻿
+Console.WriteLine(@"Hej! Give me a number of seconds:");
 
 string answer1 = Console.ReadLine();
 int s = int.Parse(answer1);
