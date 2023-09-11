@@ -13,7 +13,7 @@ Give me a number!");
     string answer2 = Console.ReadLine();
     int y = int.Parse(answer2);
 
-    float z =(float) x / y;
+    float z = (float) x / y; // Here I turn the int x into a float so the result is a float not an int.
 
     Console.WriteLine($"{answer1} divided by {answer2} is {z}");
 }
@@ -34,7 +34,7 @@ Give me a number!");
     string answer2 = Console.ReadLine();
     float y = float.Parse(answer2);
 
-    float z = x / y;
+    float z = x / y; // Here I use floats from the beginning. 
 
     Console.WriteLine($"{answer1} divided by {answer2} is {z}");
 }

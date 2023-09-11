@@ -9,4 +9,4 @@ int m = s / 60;
 
 int r = s % 60;
 
-Console.WriteLine($"{answer1} seconds are {m} minutes and {r}seconds.");
+Console.WriteLine($"{answer1} seconds are {m} minutes and {r} seconds.");
