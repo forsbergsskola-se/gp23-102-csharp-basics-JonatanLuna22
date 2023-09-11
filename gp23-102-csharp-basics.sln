@@ -48,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.1 Grades", "P11.1 Grade
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.2 Minmax", "P11.2 Minmax\P11.2 Minmax.csproj", "{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.3 Characters", "P11.3 Characters\P11.3 Characters.csproj", "{05D00E22-643E-4482-9240-B90CAAB69E70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,5 +152,9 @@ Global
 		{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D00E22-643E-4482-9240-B90CAAB69E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D00E22-643E-4482-9240-B90CAAB69E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D00E22-643E-4482-9240-B90CAAB69E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D00E22-643E-4482-9240-B90CAAB69E70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
