@@ -44,6 +44,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.11 DHMS", "P9.11 DHMS\P9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11 Ifelse", "P11 Ifelse\P11 Ifelse.csproj", "{82B79A41-B29D-4FD2-AC65-6A3043357A33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.1 Grades", "P11.1 Grades\P11.1 Grades.csproj", "{077D4E76-8A25-469A-8917-CF474DCAF52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.2 Minmax", "P11.2 Minmax\P11.2 Minmax.csproj", "{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,5 +142,13 @@ Global
 		{82B79A41-B29D-4FD2-AC65-6A3043357A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B79A41-B29D-4FD2-AC65-6A3043357A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B79A41-B29D-4FD2-AC65-6A3043357A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077D4E76-8A25-469A-8917-CF474DCAF52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077D4E76-8A25-469A-8917-CF474DCAF52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077D4E76-8A25-469A-8917-CF474DCAF52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077D4E76-8A25-469A-8917-CF474DCAF52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863D70F3-0AC9-4A5A-A398-474AB8E7CBB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
