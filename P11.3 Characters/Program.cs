@@ -1,19 +1,18 @@
 ﻿
-char vowel = ("a" || "e" || "i" || "o" || "u" || "A" || "E" || "I" || "O" || "U");
-    
-Console.WriteLine("Hej! Give a simple character and I will tell you if it is a number, vowel or consonant.");
+Console.WriteLine("Hej! Text a single character and I will tell you if it is a number, a vowel or a consonant.");
+char c = char.Parse(Console.ReadLine());
 
-char character = char.Parse(Console.ReadLine());
-
-if (character = char vowel)
+if (c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || c == '6' || c == '7' || c == '8' || c == '9')
 {
-    Console.WriteLine(@$"The number {number} is in the scale 
-A: 90-100.");
+    Console.WriteLine($"{c} is a number.");
 }
-else if (number <= 89 && number > 79)
+else if (c == 'a' ||c == 'e' ||c == 'i' ||c == 'o' ||c == 'u' ||c == 'A' ||c == 'E' ||c == 'I' ||c == 'O' ||c == 'U')
 {
-    Console.WriteLine(@$"The number {number} is in the scale 
-B: 80-89.");
+    Console.WriteLine($"{c} is a vowel.");
+}
+else if (!(c == 'a' ||c == 'e' ||c == 'i' ||c == 'o' ||c == 'u' ||c == 'A' ||c == 'E' ||c == 'I' ||c == 'O' ||c == 'U'))
+{
+    Console.WriteLine($"{c} is a consonant.");
 }
 
 /*
