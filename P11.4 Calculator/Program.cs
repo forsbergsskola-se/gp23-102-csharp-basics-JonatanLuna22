@@ -5,8 +5,18 @@ Input: 3, +, 7
 Output: 10 
 */
 
-Console.WriteLine("Choose ");
+// String.Contains(Char value)
 
-if (float + float) 
+// Identifica que es un float, crea una variable. Identifica el simbolo y asignale una varialble char.
 
-else if (float / float)
+Console.WriteLine("Text an addition, a subtraction, a multiplication or a division in the next format: (x + y)");
+string operation = Console.ReadLine();
+
+if (operation.Contains('+'))
+{
+ Console.WriteLine($"{operation} is an addition.");
+}
+else if (operation.Contains('-'))
+{
+ Console.WriteLine($"{operation} is an subtraction.");
+}

@@ -1,2 +1,4 @@
 ﻿
+Random random = new Random();
+
 
