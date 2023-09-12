@@ -18,5 +18,13 @@ if (operation.Contains('+'))
 }
 else if (operation.Contains('-'))
 {
- Console.WriteLine($"{operation} is an subtraction.");
+ Console.WriteLine($"{operation} is a subtraction.");
+}
+else if (operation.Contains('*'))
+{
+ Console.WriteLine($"{operation} is a multiplication.");
+}
+else if (operation.Contains('/'))
+{
+ Console.WriteLine($"{operation} is a division.");
 }

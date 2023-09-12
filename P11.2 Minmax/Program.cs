@@ -19,7 +19,7 @@ else if (number2 < number1 && number2 < number3)
 {
     Console.WriteLine($"The number {number2} is the smallest.");
 }
-else (number3 < number1 && number3 < number2)
+else 
 {
     Console.WriteLine($"The number {number3} is the smallest.");
 }
@@ -34,7 +34,7 @@ else if (number2 > number1 && number2 > number3)
 {
     Console.WriteLine($"And the number {number2} is the greatest.");
 }
-else (number3 > number1 && number3 > number2)
+else 
 {
     Console.WriteLine($"And the number {number3} is the greatest.");
 }
