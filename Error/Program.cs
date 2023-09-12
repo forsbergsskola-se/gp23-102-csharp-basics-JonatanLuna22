@@ -2,7 +2,7 @@
  Develop a simple calculator program that allows operations such as addition, subtraction, multiplication, and division. Allow the user to choose which operation to perform.
 
 Input: 3, +, 7
-Output: 10
+Output: 10 
 */
 
 // String.Contains(Char value)
@@ -14,17 +14,17 @@ string operation = Console.ReadLine();
 
 if (operation.Contains('+'))
 {
-    Console.WriteLine($"{operation} is an addition.");
+ Console.WriteLine($"{operation} is an addition.");
 }
 else if (operation.Contains('-'))
 {
-    Console.WriteLine($"{operation} is a subtraction.");
+ Console.WriteLine($"{operation} is a subtraction.");
 }
 else if (operation.Contains('*'))
 {
-    Console.WriteLine($"{operation} is a multiplication.");
+ Console.WriteLine($"{operation} is a multiplication.");
 }
 else if (operation.Contains('/'))
 {
-    Console.WriteLine($"{operation} is a division.");
+ Console.WriteLine($"{operation} is a division.");
 }
