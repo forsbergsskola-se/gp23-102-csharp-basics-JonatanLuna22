@@ -54,6 +54,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Error", "Error\Error.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.4 Calculator", "P11.4 Calculator\P11.4 Calculator.csproj", "{1507432E-2097-47A8-91A0-8B6B8AF7720F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12 Random", "P12 Random\P12 Random.csproj", "{FE4ECA2D-F3A2-4EE7-A58C-8306DD6C5438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,5 +170,9 @@ Global
 		{1507432E-2097-47A8-91A0-8B6B8AF7720F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1507432E-2097-47A8-91A0-8B6B8AF7720F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1507432E-2097-47A8-91A0-8B6B8AF7720F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4ECA2D-F3A2-4EE7-A58C-8306DD6C5438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4ECA2D-F3A2-4EE7-A58C-8306DD6C5438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4ECA2D-F3A2-4EE7-A58C-8306DD6C5438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4ECA2D-F3A2-4EE7-A58C-8306DD6C5438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
