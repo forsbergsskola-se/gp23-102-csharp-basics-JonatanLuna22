@@ -36,7 +36,7 @@ double crit = double.Parse(Console.ReadLine());
 
 // 1
 
-    if (Random.Shared.NextDouble() < crit) // Why I removed "Shared." and I get an error?
+    if (random.NextDouble() < crit) // Why I removed "Shared." and I get an error?
     {
         Console.WriteLine("Crit");
     }

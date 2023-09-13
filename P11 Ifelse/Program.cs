@@ -48,6 +48,7 @@ if (number == age)
 else if (number < age)
 {
     Console.WriteLine($"Your age is greater than {answer2}.");
+    goto bigage
 }
 else
 {
@@ -55,6 +56,8 @@ else
 }
 
 // Even or odd
+
+big
 
 if (number % 2 == 0)
 {
