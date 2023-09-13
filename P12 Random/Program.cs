@@ -34,17 +34,17 @@ Console.WriteLine(@$"And now I will give you three random numbers between 0 and 
 Console.WriteLine(":Give me a crit chance between 0,0 (0%) and 1,0 (100%)");
 double crit = double.Parse(Console.ReadLine());
 
+Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
+Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
+Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
+Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
+Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
+
 /*
 ? = Then : Otherwise.
 Example1: String x = age <= 12 ? "child" : age >= 12 ? teen : "adult;
 Example2: Console.WriteLine(number % 2 == 0 ? $"{number} is and even number." : $"{number} is and odd number.");
 */
-
-Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
-Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
-Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
-Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
-Console.WriteLine(random.NextDouble() < crit ? "Crit." : "No crit.");
 
 /* Long way:
 
