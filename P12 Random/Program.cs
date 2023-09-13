@@ -34,9 +34,13 @@ Console.WriteLine(@$"And now I will give you three random numbers between 0 and 
 Console.WriteLine(":Give me a crit chance between 0,0 (0%) and 1,0 (100%)");
 double crit = double.Parse(Console.ReadLine());
 
-// 1
+// Variable x ? = Then : Otherwise.
+// Example: String x = age <= 12 ? "child" : age >= 12 ? teen : "adult:
+// Console.WriteLine(condition ? "Then" : "Else");
 
-    if (random.NextDouble() < crit) // Why I removed "Shared." and I get an error?
+// 1 
+
+    if (random.NextDouble() < crit) 
     {
         Console.WriteLine("Crit");
     }
@@ -47,7 +51,7 @@ double crit = double.Parse(Console.ReadLine());
 
 // 2
 
-    if (Random.Shared.NextDouble() < crit)
+    if (random.NextDouble() < crit)
     {
         Console.WriteLine("Crit");
     }
@@ -58,7 +62,7 @@ double crit = double.Parse(Console.ReadLine());
 
 // 3
 
-    if (Random.Shared.NextDouble() < crit)
+    if (random.NextDouble() < crit)
     {
         Console.WriteLine("Crit");
     }
@@ -69,7 +73,7 @@ double crit = double.Parse(Console.ReadLine());
 
 // 4
 
-    if (Random.Shared.NextDouble() < crit)
+    if (random.NextDouble() < crit)
     {
         Console.WriteLine("Crit");
     }
@@ -80,7 +84,7 @@ double crit = double.Parse(Console.ReadLine());
 
 // 5
 
-    if (Random.Shared.NextDouble() < crit)
+    if (random.NextDouble() < crit)
     {
         Console.WriteLine("Crit");
     }
