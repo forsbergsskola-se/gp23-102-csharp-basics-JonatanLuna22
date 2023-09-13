@@ -7,13 +7,11 @@ int Earth = 2;
 int Wind = 3;
 int Ray = 4;
 
-int power = Random.Shared.Next(0, 5);
+int number = Random.Shared.Next(0, 5);
 
-Console.WriteLine(power == Water ? "You have imbued with the power of the Water." : 
-power == Fire ? "You have imbued with the power of the Fire." :
-power == Earth ? "You have imbued with the power of the Earth." :
-power == Wind ? "You have imbued with the power of the Wind." :
-"You have imbued with the power of the Ray.");
+string power = number == Water ? "Water." : number == Fire ? "Fire." : number == Earth ? "Earth." : number == Wind ? "Wind." : "Ray";
+
+Console.WriteLine($"You have been imbued with the power of the {power}");
 
 /*
 if (power == Water)
@@ -36,4 +34,12 @@ else
 {
   Console.WriteLine("You have imbued with the power of the Ray.");
 }
+*/
+
+/*
+Console.WriteLine(power == Water ? "You have been imbued with the power of the Water." :
+power == Fire ? "You have been imbued with the power of the Fire." :
+power == Earth ? "You have been imbued with the power of the Earth." :
+power == Wind ? "You have been imbued with the power of the Wind." :
+"You have been imbued with the power of the Ray.");
 */
