@@ -9,7 +9,10 @@ int Ray = 4;
 
 int number = Random.Shared.Next(0, 5);
 
-string power = number == Water ? "Water." : number == Fire ? "Fire." : number == Earth ? "Earth." : number == Wind ? "Wind." : "Ray";
+string power = number == Water ? "Water." 
+  : number == Fire ? "Fire." 
+  : number == Earth ? "Earth." 
+  : number == Wind ? "Wind." : "Ray";
 
 Console.WriteLine($"You have been imbued with the power of the {power}");
 
