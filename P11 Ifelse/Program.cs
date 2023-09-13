@@ -48,24 +48,23 @@ if (number == age)
 else if (number < age)
 {
     Console.WriteLine($"Your age is greater than {answer2}.");
-    goto bigage
+    if (age % 2 == 0)
+    {
+        Console.WriteLine($"And {answer1} is an even number.");
+    }    
+    else
+        Console.WriteLine($"And {answer1} is an odd number.");  
 }
 else
 {
     Console.WriteLine($"{answer2} is greater than your age.");
+    if (number % 2 == 0)
+    {
+        Console.WriteLine($"And {answer2} is an even number.");
+    }    
+    else
+        Console.WriteLine($"And {answer2} is an odd number.");
 }
 
-// Even or odd
-
-big
-
-if (number % 2 == 0)
-{
-    Console.WriteLine($"And {answer2} is an even number.");
-}    
-else
-    Console.WriteLine($"And {answer2} is an odd number.");    
-
-// This is not the way: bool odd = 1 || 3 || 5 || 7 || 9;
 
 
