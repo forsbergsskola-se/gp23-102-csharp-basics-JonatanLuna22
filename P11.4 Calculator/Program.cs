@@ -9,22 +9,32 @@ Output: 10
 
 // Identifica que es un float, crea una variable. Identifica el simbolo y asignale una varialble char.
 
-Console.WriteLine("Text an addition, a subtraction, a multiplication or a division in the next format: (x + y)");
+Console.WriteLine("Hej! Give me a number.");
+float number1 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Hej! Give me a second number.");
+float number2 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Now text an addition, a subtraction, a multiplication or a division in the next format: (x + y) with the numbers you gave me.");
 string operation = Console.ReadLine();
 
 if (operation.Contains('+'))
 {
-    Console.WriteLine($"{operation} is an addition.");
+    float result = number1 + number2;
+    Console.WriteLine($"{operation} = {result}.");
 }
 else if (operation.Contains('-'))
 {
-    Console.WriteLine($"{operation} is a subtraction.");
+    float result = number1 - number2;
+    Console.WriteLine($"{operation} = {result}.");
 }
 else if (operation.Contains('*'))
 {
-    Console.WriteLine($"{operation} is a multiplication.");
+    float result = number1 * number2;
+    Console.WriteLine($"{operation} = {result}.");
 }
 else if (operation.Contains('/'))
 {
-    Console.WriteLine($"{operation} is a division.");
+    float result = number1 / number2;
+    Console.WriteLine($"{operation} = {result}.");
 }

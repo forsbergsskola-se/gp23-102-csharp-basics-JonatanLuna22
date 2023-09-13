@@ -36,7 +36,7 @@ double crit = double.Parse(Console.ReadLine());
 
 // 1
 
-    if (Random.NextDouble() < crit) // Why I removed "Shared." and I get an error?
+    if (Random.Shared.NextDouble() < crit) // Why I removed "Shared." and I get an error?
     {
         Console.WriteLine("Crit");
     }
@@ -88,12 +88,4 @@ double crit = double.Parse(Console.ReadLine());
     {
         Console.WriteLine("No Crit");
     }
-
-/*
- if(Random.Shared.NextDouble() < `0.2`){
-Console.WriteLine("You only had a 20% chance, but you were successful!");
-} else {
-    Console.WriteLine("Unfortunately, 20% chance was not enough this time :(");
-}
-*/
 
