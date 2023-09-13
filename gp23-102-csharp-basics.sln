@@ -66,6 +66,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12.3 Random Item", "P12.3 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12.4 Random Chance", "P12.4 Random Chance\P12.4 Random Chance.csproj", "{2052CE90-5867-4577-9084-B4690F0C6CDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13 Go to", "P13 Go to\P13 Go to.csproj", "{E35DE83C-4ED7-40A9-9C16-3C849B79A250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13.1 Dollars", "P13.1 Dollars\P13.1 Dollars.csproj", "{7C488C1E-1430-46C0-9688-F3F9CAF6DEDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -204,5 +208,13 @@ Global
 		{2052CE90-5867-4577-9084-B4690F0C6CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2052CE90-5867-4577-9084-B4690F0C6CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2052CE90-5867-4577-9084-B4690F0C6CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35DE83C-4ED7-40A9-9C16-3C849B79A250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35DE83C-4ED7-40A9-9C16-3C849B79A250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35DE83C-4ED7-40A9-9C16-3C849B79A250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35DE83C-4ED7-40A9-9C16-3C849B79A250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C488C1E-1430-46C0-9688-F3F9CAF6DEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C488C1E-1430-46C0-9688-F3F9CAF6DEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C488C1E-1430-46C0-9688-F3F9CAF6DEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C488C1E-1430-46C0-9688-F3F9CAF6DEDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
