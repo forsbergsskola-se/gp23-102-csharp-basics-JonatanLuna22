@@ -60,6 +60,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.5 EvenOdd", "P11.5 Even
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12.1 Coordinates", "P12.1 Coordinates\P12.1 Coordinates.csproj", "{7BDE3298-9E37-46AA-B771-97FDA3D59C58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12.2 Random Password", "P12.2 Random Password\P12.2 Random Password.csproj", "{AAAC3ADD-3618-4EE5-A1BA-1BB093C4D0D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,5 +188,9 @@ Global
 		{7BDE3298-9E37-46AA-B771-97FDA3D59C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BDE3298-9E37-46AA-B771-97FDA3D59C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BDE3298-9E37-46AA-B771-97FDA3D59C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAC3ADD-3618-4EE5-A1BA-1BB093C4D0D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAC3ADD-3618-4EE5-A1BA-1BB093C4D0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAC3ADD-3618-4EE5-A1BA-1BB093C4D0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAC3ADD-3618-4EE5-A1BA-1BB093C4D0D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -3,10 +3,10 @@
 
 Console.WriteLine("Hej player! The coordinates for the Boss are:");
 
-int X = Random.Shared.Next(0, 100);
+int X = Random.Shared.Next(0, 101);
 Console.WriteLine($"{X} for X");
 
-int Y = Random.Shared.Next(0, 100);
+int Y = Random.Shared.Next(0, 101);
 Console.WriteLine($"{Y} for Y");
 
 
