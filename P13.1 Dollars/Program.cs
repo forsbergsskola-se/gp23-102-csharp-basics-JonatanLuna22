@@ -1,6 +1,8 @@
 ﻿
 // Write a Program that asks how many Dollars the user wants. Then, the program proceeds to printing that many Dollar Symbols.
 
+using System.Globalization;
+
 Console.WriteLine("How many dollars do you want?");
 int dollars = int.Parse(Console.ReadLine());
 
@@ -18,6 +20,3 @@ if (counter < dollars)
   goto Print;
 }
 
-/*
-Console.WriteLine("$" * dollars);
-*/
