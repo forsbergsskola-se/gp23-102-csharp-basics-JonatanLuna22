@@ -8,28 +8,8 @@ Output: Nope! My number is Smaller!
 Input:42
 Output: That's the number! Well played!
 
-PSEUDOCODE:
-myNumber := random number between 1 and 100
-explain rules to user
-USER_TURN:
-ask user for number
-guess := user input
-
-if myNumber is less than guess then
-   tell user to guess lower
-   go back to USER_TURN
-end if
-
-if myNumber is greater than guess then
-   tell user to guess higher
-   go back to USER_TURN
-end if
-
-if myNumber is equal to guess then
-   tell user he won
-end if
-
 */
+
 int Rnumber = Random.Shared.Next(0, 100);
 
 Console.WriteLine("I have picked a number (1-100). You have 10 tries to guess it!");
