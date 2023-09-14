@@ -6,12 +6,12 @@ using System.Globalization;
 Console.WriteLine("How many dollars do you want?");
 int dollars = int.Parse(Console.ReadLine());
 
-int counter = 0;
   
 string sign = "$";
 
 Console.Write("Here is your dollars: ");
 
+int counter = 0;
 Print:
 if (counter < dollars)
 {

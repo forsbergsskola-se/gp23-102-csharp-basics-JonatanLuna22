@@ -10,20 +10,39 @@ Input: 5
 */
 
 Console.WriteLine("How big do you want your right triangle? Tell me a whole number and that will be the lines and columns it will occupy.");
-int sharp = int.Parse(Console.ReadLine());
-
-int counter = 0;
+int sharps = int.Parse(Console.ReadLine());
   
 string sign = "#";
 
 Console.WriteLine("Here is your triangle:");
 
-Print:
-if (counter > 0) 
+PrintRow:
+if (sharps > 0)
 {
-  counter++;
-  Console.WriteLine(sharp --);
-  goto Print;
+    int counter = 0;
+    Print:
+    if (counter < sharps)
+    {
+        counter++;
+        Console.Write(sign);
+        goto Print;
+    }
+
+    sharps--;
+    Console.WriteLine();
+    goto PrintRow;
 }
 
+/*
+string sign = "$";
 
+Console.Write("Here is your dollars: ");
+
+Print:
+if (counter < dollars)
+{
+  counter++;
+  Console.Write(sign);
+  goto Print;
+}
+*/
