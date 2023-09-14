@@ -37,42 +37,42 @@ if (matches > 0)
             Console.Write(sign);
             goto Print2;
         }
+        Console.Write($" {matches}");
+        Console.WriteLine();
 }
 { 
+    Ask:
 Console.WriteLine();
-int Pmatches = int.Parse(Console.ReadLine());
-    matches -= Pmatches;
-    goto Print1;
-}
-
-// Reduzco, escribo, goto
-
-// int Pmatch = int.Parse(Console.ReadLine());
-// Console.WriteLine("Your turn");
-
-/*
-if (sharps > 0 && sharps > counter5) 
-{
-    int counter = 0;
-    Print:
-    if (counter < sharps)
+Console.WriteLine("It's your turn.");
+int Pmatches = int.Parse(Console.ReadLine()); // ask input
+// if input is invalid then go back to ask input
+    if (Pmatches < 0 || Pmatches > 3)
     {
-        counter++;
-        Console.Write(sign);
-        goto Print;
+        goto Ask;
     }
+    matches -= Pmatches;
     
-     
-string sign = "$";
-
-Console.Write("Here is your dollars: ");
-
-int counter = 0;
-Print:
-if (counter < dollars)
-{
-    counter++;
-    Console.Write(sign);
-    goto Print;
 }
-*/
+
+if (matches > 0)
+{
+    int counter1 = 0;
+    Print4:
+    if (matches > counter1)
+    {
+        counter1++;
+        Console.Write(sign);
+        goto Print4;
+    }
+    Console.Write($" {matches}");
+    Console.WriteLine();
+}
+
+// AI Move
+Console.WriteLine();
+Console.WriteLine("It's my turn. I draw 1 match.");
+matches -= 1;
+
+goto Print1;
+
+// Console.WriteLine("It's your turn.");
