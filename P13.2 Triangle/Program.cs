@@ -14,15 +14,15 @@ int sharp = int.Parse(Console.ReadLine());
 
 int counter = 0;
   
-char sign = (char)35;
+string sign = "#";
 
 Console.WriteLine("Here is your triangle:");
 
 Print:
-if (counter != sharp && sharp > -0) 
+if (counter > 0) 
 {
   counter++;
-  Console.WriteLine(sign * sharp --);
+  Console.WriteLine(sharp --);
   goto Print;
 }
 

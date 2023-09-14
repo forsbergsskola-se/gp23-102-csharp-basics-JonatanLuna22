@@ -23,5 +23,15 @@ Good luck!
 So... How many matches do you want to draw?
 ||||||||||||||||||||||||");
 
+int Pmatch = int.Parse(Console.ReadLine());
+  
+string sign = "|";
 
+Console.WriteLine("Your turn");
+
+Print:
+{
+    Console.Write(sign * Pmatch);
+    goto Print;
+}
 
