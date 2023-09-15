@@ -75,11 +75,31 @@ if (matches > 0)
 }
 
 // AI Move
+if (matches == 5 || matches == 9 || matches == 13 || matches == 17 || matches == 21)
+{
 int random = Random.Shared.Next(1, 4);
 Console.WriteLine();
 Console.WriteLine($"It's my turn. I draw {random}.");
 matches -= random;
-
+}
+if (matches == 2 || matches == 6 || matches == 10 || matches == 14 || matches == 18 || matches == 22)
+{
+    Console.WriteLine();
+    Console.WriteLine("It's my turn. I draw 1.");
+    matches -= 1;
+}
+if (matches == 3 || matches == 7 || matches == 11 || matches == 15 || matches == 19 || matches == 23)
+{
+    Console.WriteLine();
+    Console.WriteLine("It's my turn. I draw 2.");
+    matches -= 2;
+}
+if (matches == 4 || matches == 8 || matches == 12 || matches == 16 || matches == 20)
+{
+    Console.WriteLine();
+    Console.WriteLine("It's my turn. I draw 3.");
+    matches -= 3;
+}
 goto Print1;
 
 end:;
