@@ -30,7 +30,8 @@ Print1:
 if (matches == 1)
 {
     Console.WriteLine(@"|
-    You get the last match... Game over!");
+    You get the last match. I'm sorry you didn't have a chance. 
+    Game over!");
     goto end;
 }
 if (matches > 0)
@@ -46,13 +47,15 @@ if (matches > 0)
         Console.Write($" {matches}");
         Console.WriteLine();
 }
+
+// Player Move
 { 
     Ask:
 Console.WriteLine();
 Console.WriteLine("It's your turn.");
-int Pmatches = int.Parse(Console.ReadLine()); // ask input
-// if input is invalid then go back to ask input
-    if (Pmatches < 0 || Pmatches > 3)
+int Pmatches = int.Parse(Console.ReadLine()); 
+   
+if (Pmatches < 0 || Pmatches > 3)
     {
         goto Ask;
     }
@@ -79,25 +82,36 @@ if (matches == 5 || matches == 9 || matches == 13 || matches == 17 || matches ==
 {
 int random = Random.Shared.Next(1, 4);
 Console.WriteLine();
-Console.WriteLine($"It's my turn. I draw {random}.");
+Console.WriteLine(@$"It's my turn.
+{random}");
 matches -= random;
+goto Print1;
 }
-if (matches == 2 || matches == 6 || matches == 10 || matches == 14 || matches == 18 || matches == 22)
+
+if (matches%4 == 2)
 {
     Console.WriteLine();
-    Console.WriteLine("It's my turn. I draw 1.");
+    Console.WriteLine(@"It's my turn.
+1.");
     matches -= 1;
+    goto Print1;
+    
 }
-if (matches == 3 || matches == 7 || matches == 11 || matches == 15 || matches == 19 || matches == 23)
+if (matches%2 == 1)
 {
     Console.WriteLine();
-    Console.WriteLine("It's my turn. I draw 2.");
+    Console.WriteLine(@"It's my turn.
+2.");
     matches -= 2;
+    goto Print1;
+    
 }
-if (matches == 4 || matches == 8 || matches == 12 || matches == 16 || matches == 20)
+
+if (matches%2 == 0)
 {
     Console.WriteLine();
-    Console.WriteLine("It's my turn. I draw 3.");
+    Console.WriteLine(@"It's my turn.
+3.");
     matches -= 3;
 }
 goto Print1;
