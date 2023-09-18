@@ -52,15 +52,19 @@ if (matches > 0)
 { 
     Ask:
 Console.WriteLine();
-Console.WriteLine("It's your turn.");
+Console.WriteLine("Choose a number between 1 and 3.");
 int Pmatches = int.Parse(Console.ReadLine()); 
-   
+
+/*if (!int.TryParse(Console.ReadLine(),out Pmatches)) 
+    {
+    Console.WriteLine("Invalid input"); goto Ask;
+    }*/
+
 if (Pmatches < 0 || Pmatches > 3)
     {
-        goto Ask;
+        Console.WriteLine("Invalid input"); goto Ask;
     }
     matches -= Pmatches;
-    
 }
 
 if (matches > 0)
